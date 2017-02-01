@@ -53,5 +53,4 @@ app.directive('myDirective', function () {
 
         }
     }
-//Added Comment
 });
