@@ -1,0 +1,17 @@
+﻿<div class="container">
+        <div class="col-md-6">
+            <form>
+               Enter Name : <input type="text" ng-model="name"/>
+                <button ng-click="InsertStudent()">Save</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <table class="table">
+                <tr><th>Id</th><th>Name</th></tr>
+                <tr ng-repeat="student in records">
+                    <td ng-repeat="(key,value) in student">{{value}}</td>
+                </tr>
+            </table>
+        </div>
+ </div>
+
