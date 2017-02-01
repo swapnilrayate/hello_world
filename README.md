@@ -1,3 +1,3 @@
 # hello_world
 first repository
-version 1
+version Beta
